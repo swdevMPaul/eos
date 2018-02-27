@@ -223,7 +223,7 @@ int32_t lower_bound_i64( account_name scope, account_name code, table_name table
 int32_t upper_bound_i64( account_name scope, account_name code, table_name table, void* data, uint32_t datalen );
 
 /**
- *  @param scope - the account socpe that will be read, must exist in the transaction scopes list
+ *  @param scope - the account scope that will be read, must exist in the transaction scopes list
  *  @param table - the ID/name of the table withing the scope/code context to query
  *  @param data - must point to at lest 8 bytes containing primary key
  *
